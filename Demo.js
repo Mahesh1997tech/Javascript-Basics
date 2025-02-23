@@ -228,6 +228,49 @@ console.log(mymusic);
 
 //Accessing object properties with dot notation
 
+var ourArray=[];
+for(var i=0;i<5;i++){
+    ourArray.push(i)
+}
+console.log(ourArray);
+
+// var myVar=[];
+// for(var i=0;i<10;i--){
+//     myVar.push(i)
+// }
+// console.log(myVar);
+
+// var myarray=[];
+// for(var i=0;i<20;i+=2){
+//     myarray.push(i)
+// } 
+// console.log(myarray);
+
+
+function randomfraction(){
+return Math.random();                                                         
+}
+ 
+console.log(randomfraction);
+
+function checkSign(num){
+    return num>0 ? "positive" :num<0 ? "negative" :"zero";
+}
+console.log(checkSign(10));
+
+function checkEqual(a,b){
+    return a==b ? true : false;
+}
+console.log(checkEqual(1,2));
+
+
+function check(age){
+    return age<
+    20 ? true : false;
+}
+console.log(check(19));
+
+
 
 
 
